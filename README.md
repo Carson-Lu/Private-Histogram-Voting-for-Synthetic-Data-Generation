@@ -1,5 +1,7 @@
 # DP-MERF + Voting: Differentially Private Synthetic Tabular Data Generation
 
+[Read the technical report (PDF)](./Your%20Vote%20Matters%20-%20Private%20Histogram%20Voting%20for%20Synthetic%20Data%20Generation.pdf)
+
 This project extends [DP-MERF](https://arxiv.org/abs/2002.11603) with a nearest-neighbour histogram voting post-processing step to improve the quality of differentially private synthetic tabular data. The core idea is to use private data to vote on a pool of generated candidates, retaining those closest to the real data distribution, while splitting generation into $k$ independent pipelines to improve vote signal quality.
 
 ## Overview
